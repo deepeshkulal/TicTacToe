@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #301934;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('bg.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px; /* Adjust size as needed */
+    color: #333; /* Change color if desired */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+h1 {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.game-options {
+    margin-bottom: 20px;
+}
+
+.symbol-selection {
+    margin-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #DA70D6;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #301934;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #666;
+}
+#start-game {
+    background-color: #301934; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 12px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-family: 'Press Start 2P', cursive; /* Use the silkscreen font */
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+#start-game:hover {
+    background-color: #45224b; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly grow on hover */
+}
+
+
+.symbol-selection {
+    margin-top: 10px; 
+    font-family: 'Press Start 2P', cursive;
+}
+
+.symbol-selection label {
+    margin-right: 10px;
+    color: #301934; 
+}
+#player1-symbol {
+    background-color: #301934; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 12px; 
+    padding: 10px; 
+    font-size: 16px; 
+    font-family: 'Press Start 2P', cursive; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+#player1-symbol:hover {
+    background-color: #45224b; 
+}
+
+
+#player1-symbol option {
+    background-color: #301934; 
+    color: #ffffff; 
+}
+

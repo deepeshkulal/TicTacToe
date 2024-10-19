@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div class="game-options">
+            <button id="start-game">Start New Game</button>
+            <div class="symbol-selection">
+                <label for="player1-symbol">Player 1 Symbol:</label>
+                <select id="player1-symbol">
+                    <option value="X">X</option>
+                    <option value="O">O</option>
+                </select>
+            </div>
+        </div>
+        <div class="grid" id="grid">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <h2 id="status"></h2>
+    </div>
+    <script src="tic.js"></script>
+</body>
+</html>
