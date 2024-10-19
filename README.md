@@ -19,11 +19,10 @@ Installation:
 To run this project locally:
 
 1. Clone the repository:
-   git clone https://github.com/your-username/tic-tac-toe.git
-   cd tic-tac-toe
+   git clone https:https://github.com/deepeshkulal/TicTacToe
 
-2. Open `index.html` in your browser:
-   - Simply open the `index.html` file in your preferred browser to start playing.
+2. Open `main.html` in your browser:
+   - Simply open the `main.html` file in your preferred browser to start playing.
 
 Usage:
 ------
